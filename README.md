@@ -6,14 +6,16 @@
 
 ## Installation
 
-Deploy Preparing...
+```bash
+> yarn ezpay-invoice-sdk -p
+```
 
 ## Usage
 
 ### Create Instance
 
 ```js
-const EzpayInvoice  = require('../build/ezpay-invoice').default
+const EzpayInvoice  = require('ezpay-invoice-sdk').default
 const ei = new EzpayInvoice()
 ```
 

@@ -1,0 +1,2 @@
+export const DEVELOPMENT_ENDPOINT: 'https://cinv.ezpay.com.tw/Api/invoice_issue' = 'https://cinv.ezpay.com.tw/Api/invoice_issue'
+export const PRODUCTION_ENDPOINT: 'https://inv.ezpay.com.tw/Api/invoice_issue' = 'https://inv.ezpay.com.tw/Api/invoice_issue'

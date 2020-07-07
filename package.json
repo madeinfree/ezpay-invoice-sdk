@@ -9,10 +9,10 @@
   "repository": {
     "url": "https://github.com/madeinfree/ezpay-invoice-sdk"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "files": [
-    "./build"
+    "build"
   ],
   "scripts": {
     "build": "tsc"

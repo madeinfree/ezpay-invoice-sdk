@@ -19,7 +19,20 @@ const EzpayInvoice  = require('ezpay-invoice-sdk').default
 const ei = new EzpayInvoice()
 ```
 
-### Set Merchant ID（required）- string
+### Set Mode
+
+#### setMode(mode: string)
+
+設置 Endpoint 呼叫環境
+
+- dev {Default https://cinv.ezpay.com.tw/Api/invoice_issue}
+- prod {https://inv.ezpay.com.tw/Api/invoice_issue}
+
+```js
+ei.setMode('prod')
+```
+
+### Set Merchant ID（required）
 
 #### setMerchantID(MerchantID: string)
 

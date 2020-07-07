@@ -6,6 +6,9 @@
     "email": "sal95610@gmail.com",
     "url": "https://github.com/madeinfree"
   },
+  "repository": {
+    "url": "https://github.com/madeinfree/ezpay-invoice-sdk"
+  },
   "version": "1.0.0",
   "main": "./build/index.js",
   "scripts": {

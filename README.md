@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-> yarn ezpay-invoice-sdk -p
+> yarn add ezpay-invoice-sdk -p
 ```
 
 ## Usage

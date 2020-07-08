@@ -12,7 +12,8 @@
   "version": "1.0.2",
   "main": "./build/index.js",
   "files": [
-    "build"
+    "build",
+    "./index.d.ts"
   ],
   "scripts": {
     "build": "tsc",

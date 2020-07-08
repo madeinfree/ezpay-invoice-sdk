@@ -15,7 +15,8 @@
     "build"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "yarn build && npm publish"
   },
   "license": "MIT",
   "devDependencies": {
